@@ -1,0 +1,13 @@
+{
+  "id": "promotion-calculator",
+  "entry": "SKILL.md",
+  "files": [
+    "SKILL.md",
+    "agent/calculate.mjs",
+    "agent/availability.mjs",
+    "agent/example-input.json",
+    "agent/example-result.json",
+    "agent/example-report.md",
+    "src/engine.ts"
+  ]
+}

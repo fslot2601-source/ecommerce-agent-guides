@@ -1,0 +1,467 @@
+{
+  "productName": "示例活动单品：夏季防晒衣（非真实客户数据）",
+  "status": "complete",
+  "settings": {
+    "scenario": "influencerSlot",
+    "listPrice": 199,
+    "coupon": 20,
+    "units": 1500,
+    "expectedUnits": 1500,
+    "bomCost": 45,
+    "packagingCost": 3.5,
+    "shippingCost": 6.5,
+    "returnRate": 0.15,
+    "platformFeeRate": 0.05,
+    "taxMode": "inclusive",
+    "taxRate": 0.13,
+    "paidTrafficShare": 0,
+    "roi": 0,
+    "commissionRate": 0.18,
+    "leaderFeeRate": 0.03,
+    "slotFee": 10000,
+    "sampleCost": 800
+  },
+  "calculation": {
+    "paidPrice": 179,
+    "netSettlement": 152.15,
+    "expectedRefund": 26.849999999999998,
+    "bomCost": 48.5,
+    "fulfilmentCost": 6.5,
+    "platformFee": 8.950000000000001,
+    "commission": 32.22,
+    "leaderFee": 5.37,
+    "slotAllocation": 6.666666666666667,
+    "sampleAllocation": 0.5333333333333333,
+    "commercialPromotion": 44.78999999999999,
+    "adSpend": 0,
+    "tax": 20.5929203539823,
+    "grossProfit": 130.5,
+    "contributionMargin1": 115.05,
+    "operatingProfit": 22.81707964601771,
+    "unitProfit": 22.81707964601771,
+    "margin": 0.12746971869283638,
+    "totalProfit": 34225.61946902657,
+    "breakEvenUnits": 359.7951608671168,
+    "maxCommissionRate": 0.30746971869283635,
+    "maxSlotFee": 44225.61946902657,
+    "breakEvenRoi": null,
+    "safetyMargin": 1,
+    "gmv": 268500,
+    "totalNetSettlement": 228225,
+    "totalAdSpend": 0,
+    "totalCost": 156.18292035398227,
+    "costLines": [
+      {
+        "key": "returns",
+        "label": "退款回吐准备",
+        "value": 26.849999999999998,
+        "color": "#d977a7"
+      },
+      {
+        "key": "bom",
+        "label": "商品 BOM 成本",
+        "value": 48.5,
+        "color": "#5f6fff"
+      },
+      {
+        "key": "fulfilment",
+        "label": "基础发货履约",
+        "value": 6.5,
+        "color": "#7386ff"
+      },
+      {
+        "key": "platform",
+        "label": "平台技术服务费",
+        "value": 8.950000000000001,
+        "color": "#bd65d8"
+      },
+      {
+        "key": "promotion",
+        "label": "商务推广",
+        "value": 44.78999999999999,
+        "color": "#f59b5f"
+      },
+      {
+        "key": "ads",
+        "label": "付费投流分摊",
+        "value": 0,
+        "color": "#45bfb2"
+      },
+      {
+        "key": "tax",
+        "label": "税金及附加",
+        "value": 20.5929203539823,
+        "color": "#9ca3af"
+      }
+    ]
+  },
+  "priceLessBom": 154,
+  "sensitivity": {
+    "useRoi": false,
+    "rows": [
+      {
+        "returnDelta": -0.1,
+        "cells": [
+          {
+            "driverDelta": -0.1,
+            "unitProfit": 58.61707964601769,
+            "totalProfit": 87925.61946902654
+          },
+          {
+            "driverDelta": -0.05,
+            "unitProfit": 49.66707964601769,
+            "totalProfit": 74500.61946902653
+          },
+          {
+            "driverDelta": 0,
+            "unitProfit": 40.7170796460177,
+            "totalProfit": 61075.61946902654
+          },
+          {
+            "driverDelta": 0.05,
+            "unitProfit": 31.767079646017706,
+            "totalProfit": 47650.619469026555
+          },
+          {
+            "driverDelta": 0.1,
+            "unitProfit": 22.817079646017696,
+            "totalProfit": 34225.61946902655
+          }
+        ]
+      },
+      {
+        "returnDelta": -0.05,
+        "cells": [
+          {
+            "driverDelta": -0.1,
+            "unitProfit": 49.667079646017704,
+            "totalProfit": 74500.61946902655
+          },
+          {
+            "driverDelta": -0.05,
+            "unitProfit": 40.71707964601771,
+            "totalProfit": 61075.619469026555
+          },
+          {
+            "driverDelta": 0,
+            "unitProfit": 31.767079646017713,
+            "totalProfit": 47650.61946902656
+          },
+          {
+            "driverDelta": 0.05,
+            "unitProfit": 22.817079646017717,
+            "totalProfit": 34225.61946902658
+          },
+          {
+            "driverDelta": 0.1,
+            "unitProfit": 13.867079646017707,
+            "totalProfit": 20800.619469026566
+          }
+        ]
+      },
+      {
+        "returnDelta": 0,
+        "cells": [
+          {
+            "driverDelta": -0.1,
+            "unitProfit": 40.7170796460177,
+            "totalProfit": 61075.61946902654
+          },
+          {
+            "driverDelta": -0.05,
+            "unitProfit": 31.767079646017706,
+            "totalProfit": 47650.619469026555
+          },
+          {
+            "driverDelta": 0,
+            "unitProfit": 22.81707964601771,
+            "totalProfit": 34225.61946902657
+          },
+          {
+            "driverDelta": 0.05,
+            "unitProfit": 13.867079646017714,
+            "totalProfit": 20800.619469026577
+          },
+          {
+            "driverDelta": 0.1,
+            "unitProfit": 4.917079646017704,
+            "totalProfit": 7375.619469026558
+          }
+        ]
+      },
+      {
+        "returnDelta": 0.05,
+        "cells": [
+          {
+            "driverDelta": -0.1,
+            "unitProfit": 31.7670796460177,
+            "totalProfit": 47650.61946902654
+          },
+          {
+            "driverDelta": -0.05,
+            "unitProfit": 22.817079646017703,
+            "totalProfit": 34225.61946902656
+          },
+          {
+            "driverDelta": 0,
+            "unitProfit": 13.867079646017707,
+            "totalProfit": 20800.619469026566
+          },
+          {
+            "driverDelta": 0.05,
+            "unitProfit": 4.9170796460177115,
+            "totalProfit": 7375.619469026569
+          },
+          {
+            "driverDelta": 0.1,
+            "unitProfit": -4.032920353982298,
+            "totalProfit": -6049.380530973447
+          }
+        ]
+      },
+      {
+        "returnDelta": 0.1,
+        "cells": [
+          {
+            "driverDelta": -0.1,
+            "unitProfit": 22.817079646017696,
+            "totalProfit": 34225.61946902655
+          },
+          {
+            "driverDelta": -0.05,
+            "unitProfit": 13.8670796460177,
+            "totalProfit": 20800.619469026555
+          },
+          {
+            "driverDelta": 0,
+            "unitProfit": 4.917079646017704,
+            "totalProfit": 7375.619469026558
+          },
+          {
+            "driverDelta": 0.05,
+            "unitProfit": -4.032920353982291,
+            "totalProfit": -6049.380530973437
+          },
+          {
+            "driverDelta": 0.1,
+            "unitProfit": -12.982920353982301,
+            "totalProfit": -19474.380530973453
+          }
+        ]
+      }
+    ]
+  },
+  "missingByMetric": {},
+  "unavailableReasons": {},
+  "assumptions": [
+    "销售收入以券后实付金额（listPrice - coupon）为基准；退款回吐按预计退货率计提准备。",
+    "平台技术服务费、达人带货佣金、团长招商服务费与税金及附加均按券后实付金额全额计提；退款发生时，上述费用不作冲减回退。",
+    "expectedUnits 仅用于固定投入（坑位费与样品成本）的单件分摊；units 用于整场实际成交件数、GMV、整场投流与整场总净利计算。",
+    "整场总净利始终一次性扣除全部固定成本（slotFee + sampleCost）；当整场实际成交件数为零时，如实反映固定投入全额亏损。",
+    "原引擎在 roi ≤ 0.000001 时存在假定 ROI = 1 或不计投流的退化行为；当付费流量占比大于 0 时，Skill 拒绝该区间的 ROI，不静默采用退化结果。",
+    "缺失金额、比例、税率与销量不使用预设场景或示例值补齐，未明确的字段保持缺失，不影响无关指标的计算。",
+    "仅在本地读取文件并完成测算，不上传数据，不修改原始输入，不执行外部投放或交易操作；不保证经营决策无风险。"
+  ],
+  "comparisons": [
+    {
+      "name": "方案A：达播坑佣（当前）",
+      "status": "complete",
+      "settings": {
+        "scenario": "influencerSlot",
+        "listPrice": 199,
+        "coupon": 20,
+        "units": 1500,
+        "expectedUnits": 1500,
+        "bomCost": 45,
+        "packagingCost": 3.5,
+        "shippingCost": 6.5,
+        "returnRate": 0.15,
+        "platformFeeRate": 0.05,
+        "taxMode": "inclusive",
+        "taxRate": 0.13,
+        "paidTrafficShare": 0,
+        "roi": 0,
+        "commissionRate": 0.18,
+        "leaderFeeRate": 0.03,
+        "slotFee": 10000,
+        "sampleCost": 800
+      },
+      "calculation": {
+        "paidPrice": 179,
+        "netSettlement": 152.15,
+        "expectedRefund": 26.849999999999998,
+        "bomCost": 48.5,
+        "fulfilmentCost": 6.5,
+        "platformFee": 8.950000000000001,
+        "commission": 32.22,
+        "leaderFee": 5.37,
+        "slotAllocation": 6.666666666666667,
+        "sampleAllocation": 0.5333333333333333,
+        "commercialPromotion": 44.78999999999999,
+        "adSpend": 0,
+        "tax": 20.5929203539823,
+        "grossProfit": 130.5,
+        "contributionMargin1": 115.05,
+        "operatingProfit": 22.81707964601771,
+        "unitProfit": 22.81707964601771,
+        "margin": 0.12746971869283638,
+        "totalProfit": 34225.61946902657,
+        "breakEvenUnits": 359.7951608671168,
+        "maxCommissionRate": 0.30746971869283635,
+        "maxSlotFee": 44225.61946902657,
+        "breakEvenRoi": null,
+        "safetyMargin": 1,
+        "gmv": 268500,
+        "totalNetSettlement": 228225,
+        "totalAdSpend": 0,
+        "totalCost": 156.18292035398227,
+        "costLines": [
+          {
+            "key": "returns",
+            "label": "退款回吐准备",
+            "value": 26.849999999999998,
+            "color": "#d977a7"
+          },
+          {
+            "key": "bom",
+            "label": "商品 BOM 成本",
+            "value": 48.5,
+            "color": "#5f6fff"
+          },
+          {
+            "key": "fulfilment",
+            "label": "基础发货履约",
+            "value": 6.5,
+            "color": "#7386ff"
+          },
+          {
+            "key": "platform",
+            "label": "平台技术服务费",
+            "value": 8.950000000000001,
+            "color": "#bd65d8"
+          },
+          {
+            "key": "promotion",
+            "label": "商务推广",
+            "value": 44.78999999999999,
+            "color": "#f59b5f"
+          },
+          {
+            "key": "ads",
+            "label": "付费投流分摊",
+            "value": 0,
+            "color": "#45bfb2"
+          },
+          {
+            "key": "tax",
+            "label": "税金及附加",
+            "value": 20.5929203539823,
+            "color": "#9ca3af"
+          }
+        ]
+      },
+      "missingByMetric": {},
+      "unavailableReasons": {}
+    },
+    {
+      "name": "方案B：达播纯佣",
+      "status": "complete",
+      "settings": {
+        "scenario": "influencerCommission",
+        "listPrice": 199,
+        "coupon": 20,
+        "units": 1500,
+        "expectedUnits": 1500,
+        "bomCost": 45,
+        "packagingCost": 3.5,
+        "shippingCost": 6.5,
+        "returnRate": 0.15,
+        "platformFeeRate": 0.05,
+        "taxMode": "inclusive",
+        "taxRate": 0.13,
+        "paidTrafficShare": 0,
+        "roi": 0,
+        "commissionRate": 0.25,
+        "leaderFeeRate": 0,
+        "slotFee": 0,
+        "sampleCost": 800
+      },
+      "calculation": {
+        "paidPrice": 179,
+        "netSettlement": 152.15,
+        "expectedRefund": 26.849999999999998,
+        "bomCost": 48.5,
+        "fulfilmentCost": 6.5,
+        "platformFee": 8.950000000000001,
+        "commission": 44.75,
+        "leaderFee": 0,
+        "slotAllocation": 0,
+        "sampleAllocation": 0.5333333333333333,
+        "commercialPromotion": 45.28333333333333,
+        "adSpend": 0,
+        "tax": 20.5929203539823,
+        "grossProfit": 130.5,
+        "contributionMargin1": 115.05,
+        "operatingProfit": 22.32374631268437,
+        "unitProfit": 22.32374631268437,
+        "margin": 0.12471366655130933,
+        "totalProfit": 33485.61946902656,
+        "breakEvenUnits": 35.00009679230307,
+        "maxCommissionRate": 0.3747136665513093,
+        "maxSlotFee": 33485.619469026555,
+        "breakEvenRoi": null,
+        "safetyMargin": 1,
+        "gmv": 268500,
+        "totalNetSettlement": 228225,
+        "totalAdSpend": 0,
+        "totalCost": 156.6762536873156,
+        "costLines": [
+          {
+            "key": "returns",
+            "label": "退款回吐准备",
+            "value": 26.849999999999998,
+            "color": "#d977a7"
+          },
+          {
+            "key": "bom",
+            "label": "商品 BOM 成本",
+            "value": 48.5,
+            "color": "#5f6fff"
+          },
+          {
+            "key": "fulfilment",
+            "label": "基础发货履约",
+            "value": 6.5,
+            "color": "#7386ff"
+          },
+          {
+            "key": "platform",
+            "label": "平台技术服务费",
+            "value": 8.950000000000001,
+            "color": "#bd65d8"
+          },
+          {
+            "key": "promotion",
+            "label": "商务推广",
+            "value": 45.28333333333333,
+            "color": "#f59b5f"
+          },
+          {
+            "key": "ads",
+            "label": "付费投流分摊",
+            "value": 0,
+            "color": "#45bfb2"
+          },
+          {
+            "key": "tax",
+            "label": "税金及附加",
+            "value": 20.5929203539823,
+            "color": "#9ca3af"
+          }
+        ]
+      },
+      "missingByMetric": {},
+      "unavailableReasons": {}
+    }
+  ]
+}

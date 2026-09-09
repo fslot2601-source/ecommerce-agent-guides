@@ -1,0 +1,27 @@
+{
+  "productName": "示例商品：大促冲量款（非真实客户数据）",
+  "settings": {
+    "listPrice": 399,
+    "productCost": 168,
+    "shippingCost": 10,
+    "platformFeeRate": 5,
+    "taxRate": 1,
+    "fullReductionThreshold": 300,
+    "fullReductionAmount": 50,
+    "basketAmount": 399,
+    "itemAllocationRate": 100,
+    "shopCouponKind": "fixed",
+    "shopCouponThreshold": 300,
+    "shopCouponValue": 30,
+    "newCustomerGift": 20,
+    "newCustomerPlatformRate": 100,
+    "categoryCouponKind": "fixed",
+    "categoryCouponThreshold": 0,
+    "categoryCouponValue": 20,
+    "categoryPlatformRate": 40,
+    "vipCreatorCouponKind": "fixed",
+    "vipCreatorCouponThreshold": 0,
+    "vipCreatorCouponValue": 15,
+    "vipCreatorPlatformRate": 40
+  }
+}

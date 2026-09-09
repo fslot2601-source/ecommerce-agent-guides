@@ -1,0 +1,15 @@
+{
+  "productName": "示例商品：春季休闲卫衣（非真实客户数据）",
+  "settings": {
+    "price": 199,
+    "purchaseCost": 68,
+    "shippingCost": 12,
+    "platformRate": 0.06,
+    "returnRate": 0.25,
+    "cvr": 0.032,
+    "ctr": 0.025,
+    "paidShare": 0.65,
+    "targetMargin": 0.1,
+    "budget": 10000
+  }
+}

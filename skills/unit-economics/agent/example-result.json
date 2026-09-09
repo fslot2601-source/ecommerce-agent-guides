@@ -1,0 +1,157 @@
+{
+  "productName": "示例商品：轻便收纳包（非真实客户数据）",
+  "status": "complete",
+  "settings": {
+    "asp": 169,
+    "productCost": {
+      "mode": "summary",
+      "summary": 62,
+      "detailed": {
+        "bom": 48,
+        "packaging": 4,
+        "accessories": 2,
+        "gifts": 3,
+        "inboundFreight": 5
+      }
+    },
+    "fulfillmentCost": {
+      "mode": "summary",
+      "summary": 8.5,
+      "detailed": {
+        "delivery": 5,
+        "packing": 2.5,
+        "shippingInsurance": 1
+      }
+    },
+    "platformFee": {
+      "mode": "summary",
+      "summary": 0.05,
+      "detailed": {
+        "commissionRate": 0.05,
+        "paymentRate": 0.006,
+        "software": 1
+      }
+    },
+    "tax": {
+      "mode": "invoice",
+      "taxpayerType": "general13",
+      "surtaxRate": 0.12,
+      "quickRate": 0.02,
+      "productInvoice": true,
+      "logisticsInvoice": true,
+      "logisticsInvoiceRate": 0.09,
+      "adInvoice": true
+    },
+    "marketing": {
+      "mode": "rate",
+      "gmvRate": 0.18,
+      "paidTrafficShare": 0.7,
+      "roas": 4,
+      "livestreamCommissionRate": 0
+    },
+    "adjustments": {
+      "returnRate": 0.12,
+      "discount": 0
+    },
+    "targetNetMargin": 0.1
+  },
+  "calculation": {
+    "asp": 169,
+    "gmv": 169,
+    "discount": 0,
+    "settledSales": 169,
+    "netSales": 148.72,
+    "returnRate": 0.12,
+    "productCost": 62,
+    "fulfillmentCost": 10.02,
+    "platformCost": 7.44,
+    "adCost": 30.42,
+    "livestreamCommission": 0,
+    "marketingCost": 30.42,
+    "returnProvision": 1.52,
+    "grossProfit": 86.72,
+    "cm1": 60.8,
+    "cm2": 30.38,
+    "netProfit": 30.38,
+    "grossMargin": 0.5131360946745562,
+    "cm1Margin": 0.3597747610952671,
+    "cm2Margin": 0.17977476109526713,
+    "netMargin": 0.17977476109526713,
+    "breakEvenRoas": 2.6883539661044726,
+    "breakEvenPrice": 114.15,
+    "breakEvenCogs": 96.04,
+    "adSpendRate": 0.18,
+    "actualAdCostRate": 0.20454545454545453,
+    "taxCost": 8.46,
+    "outputVat": 17.11,
+    "productInputVat": 7.13,
+    "logisticsInputVat": 0.7,
+    "adInputVat": 1.72,
+    "inputVat": 9.56,
+    "payableVat": 7.55,
+    "surtax": 0.91,
+    "operationsCost": 8.46,
+    "lineItems": [
+      {
+        "code": "2000",
+        "name": "商品采购成本 / 出厂价",
+        "amount": 62,
+        "category": "product"
+      },
+      {
+        "code": "3000",
+        "name": "物流履约费用",
+        "amount": 8.5,
+        "category": "fulfillment"
+      },
+      {
+        "code": "3009",
+        "name": "退货逆向损耗准备",
+        "amount": 1.52,
+        "category": "fulfillment",
+        "detail": "按退货率自动计提"
+      },
+      {
+        "code": "4001",
+        "name": "平台综合扣点",
+        "amount": 7.44,
+        "category": "platform"
+      },
+      {
+        "code": "5001",
+        "name": "广告投流（千川/直通车）",
+        "amount": 30.42,
+        "category": "marketing",
+        "detail": "广告费率 18.0%"
+      },
+      {
+        "code": "6001",
+        "name": "实纳税费（增值税及附加）",
+        "amount": 8.46,
+        "category": "tax"
+      }
+    ]
+  },
+  "priceLessProductCost": 107,
+  "targets": {
+    "minimumPrice": 139.31,
+    "maxCogs": 77.1,
+    "targetMargin": 0.1
+  },
+  "missingByMetric": {},
+  "assumptions": [
+    "所有金额均按单件发货订单、含税金额试算。",
+    "settings 仅包含本次提供的数据及可无歧义识别的成本输入模式；缺失金额、比例、税务身份不使用示例值或零补齐。",
+    "售价减商品成本的差额尚未扣除优惠、退货、履约、税费、平台及营销费用，不是毛利或净利润。",
+    "原模型将 NP 定义为 CM2；退货逆向物流、质检与残损准备按退货率 ×（商品成本 + 履约成本）× 18%计提。",
+    "companyAdjustments 是用户明确提供的单笔企业口径扣除项。它们只影响 company.netProfit 与 company.netMargin，不纳入原模型的保本 ROAS、保本售价或采购成本上限。"
+  ],
+  "company": {
+    "adjustments": [],
+    "provided": true,
+    "totalAdjustments": 0,
+    "netProfit": 30.38,
+    "netMargin": 0.17976331360946746,
+    "basis": "企业口径利润 = 原模型 CM2 − 用户明确提供的 companyAdjustments；企业调整不改变原模型保本线。"
+  }
+}

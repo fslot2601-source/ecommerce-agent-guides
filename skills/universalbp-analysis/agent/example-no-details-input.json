@@ -1,0 +1,51 @@
+{
+  "taskName": "万相台两阶段对比（无下钻整体场景）",
+  "baseStage": "阶段一：常规日常推广",
+  "comparisonStage": "阶段二：大促爆发推广",
+  "stages": [
+    {
+      "stage": "阶段一：常规日常推广",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-20",
+      "promotionScene": "场景推广",
+      "attributionModel": "末次点击归因",
+      "attributionDays": 15,
+      "conversionScope": "总成交",
+      "spend": 50000,
+      "impressions": 2000000,
+      "clicks": 60000,
+      "visits": 55000,
+      "potentialVisits": 48000,
+      "favorites": 8000,
+      "carts": 12000,
+      "favoriteCarts": 20000,
+      "paidUsers": 1200,
+      "paidOrders": 1300,
+      "revenue": 240000,
+      "newCustomers": 900,
+      "memberships": 400
+    },
+    {
+      "stage": "阶段二：大促爆发推广",
+      "startDate": "2026-05-21",
+      "endDate": "2026-06-10",
+      "promotionScene": "场景推广",
+      "attributionModel": "末次点击归因",
+      "attributionDays": 15,
+      "conversionScope": "总成交",
+      "spend": 120000,
+      "impressions": 4500000,
+      "clicks": 150000,
+      "visits": 140000,
+      "potentialVisits": 120000,
+      "favorites": 20000,
+      "carts": 30000,
+      "favoriteCarts": 50000,
+      "paidUsers": 3500,
+      "paidOrders": 3900,
+      "revenue": 720000,
+      "newCustomers": 2800,
+      "memberships": 1100
+    }
+  ]
+}

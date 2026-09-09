@@ -1,0 +1,71 @@
+{
+  "productName": "示例活动单品：夏季防晒衣（非真实客户数据）",
+  "settings": {
+    "scenario": "influencerSlot",
+    "listPrice": 199,
+    "coupon": 20,
+    "units": 1500,
+    "expectedUnits": 1500,
+    "bomCost": 45,
+    "packagingCost": 3.5,
+    "shippingCost": 6.5,
+    "returnRate": 0.15,
+    "platformFeeRate": 0.05,
+    "taxMode": "inclusive",
+    "taxRate": 0.13,
+    "paidTrafficShare": 0,
+    "roi": 0,
+    "commissionRate": 0.18,
+    "leaderFeeRate": 0.03,
+    "slotFee": 10000,
+    "sampleCost": 800
+  },
+  "scenarios": [
+    {
+      "name": "方案A：达播坑佣（当前）",
+      "settings": {
+        "scenario": "influencerSlot",
+        "listPrice": 199,
+        "coupon": 20,
+        "units": 1500,
+        "expectedUnits": 1500,
+        "bomCost": 45,
+        "packagingCost": 3.5,
+        "shippingCost": 6.5,
+        "returnRate": 0.15,
+        "platformFeeRate": 0.05,
+        "taxMode": "inclusive",
+        "taxRate": 0.13,
+        "paidTrafficShare": 0,
+        "roi": 0,
+        "commissionRate": 0.18,
+        "leaderFeeRate": 0.03,
+        "slotFee": 10000,
+        "sampleCost": 800
+      }
+    },
+    {
+      "name": "方案B：达播纯佣",
+      "settings": {
+        "scenario": "influencerCommission",
+        "listPrice": 199,
+        "coupon": 20,
+        "units": 1500,
+        "expectedUnits": 1500,
+        "bomCost": 45,
+        "packagingCost": 3.5,
+        "shippingCost": 6.5,
+        "returnRate": 0.15,
+        "platformFeeRate": 0.05,
+        "taxMode": "inclusive",
+        "taxRate": 0.13,
+        "paidTrafficShare": 0,
+        "roi": 0,
+        "commissionRate": 0.25,
+        "leaderFeeRate": 0,
+        "slotFee": 0,
+        "sampleCost": 800
+      }
+    }
+  ]
+}

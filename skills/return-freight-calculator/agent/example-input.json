@@ -1,0 +1,10 @@
+{
+  "scenarioName": "女装秋冬大衣",
+  "price": 189,
+  "freight": 10,
+  "returnRate": 38,
+  "packagingLoss": 5,
+  "insurancePremium": 3.2,
+  "insurancePayout": 10,
+  "batchQuantity": 1000
+}

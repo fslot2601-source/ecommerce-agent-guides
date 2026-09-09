@@ -1,0 +1,14 @@
+{
+  "id": "universalbp-analysis",
+  "entry": "SKILL.md",
+  "files": [
+    "SKILL.md",
+    "agent/analyze.mjs",
+    "agent/example-input.json",
+    "agent/example-no-details-input.json",
+    "agent/example-result.json",
+    "agent/example-report.md",
+    "src/analyticsCore.ts",
+    "src/workbook.ts"
+  ]
+}

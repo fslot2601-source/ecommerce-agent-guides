@@ -1,0 +1,88 @@
+{
+  "scenarioName": "女装秋冬大衣",
+  "status": "complete",
+  "inputs": {
+    "price": 189,
+    "freight": 10,
+    "returnRate": 38,
+    "packagingLoss": 5,
+    "insurancePremium": 3.2,
+    "insurancePayout": 10,
+    "batchQuantity": 1000
+  },
+  "calculation": {
+    "reimbursement": 10,
+    "breakEvenRate": 32,
+    "difference": -0.5999999999999996,
+    "withInsurance": 15.1,
+    "withoutInsurance": 15.7,
+    "batchDifference": -599.9999999999997,
+    "batchWithInsurance": 15100,
+    "batchWithoutInsurance": 15700,
+    "lossRatioToPrice": 8.306878306878307
+  },
+  "decision": {
+    "recommendation": "open",
+    "tone": "safe",
+    "title": "仅按成本比较：建议开通运费险",
+    "detail": "每单预计节省 ¥0.60，本批次预计节省 ¥600.00。"
+  },
+  "sensitivity": [
+    {
+      "returnRate": 5,
+      "difference": 2.7,
+      "withInsurance": 13.45,
+      "withoutInsurance": 10.75
+    },
+    {
+      "returnRate": 10,
+      "difference": 2.2,
+      "withInsurance": 13.7,
+      "withoutInsurance": 11.5
+    },
+    {
+      "returnRate": 15,
+      "difference": 1.7000000000000002,
+      "withInsurance": 13.95,
+      "withoutInsurance": 12.25
+    },
+    {
+      "returnRate": 20,
+      "difference": 1.2000000000000002,
+      "withInsurance": 14.2,
+      "withoutInsurance": 13
+    },
+    {
+      "returnRate": 25,
+      "difference": 0.7000000000000002,
+      "withInsurance": 14.45,
+      "withoutInsurance": 13.75
+    },
+    {
+      "returnRate": 30,
+      "difference": 0.20000000000000018,
+      "withInsurance": 14.7,
+      "withoutInsurance": 14.5
+    },
+    {
+      "returnRate": 38,
+      "difference": -0.5999999999999996,
+      "withInsurance": 15.1,
+      "withoutInsurance": 15.7
+    },
+    {
+      "returnRate": 40,
+      "difference": -0.7999999999999998,
+      "withInsurance": 15.2,
+      "withoutInsurance": 16
+    }
+  ],
+  "missingByMetric": {},
+  "assumptions": [
+    "退回运费等于发货单程运费为模型假设。",
+    "有效赔付按 min(发货运费, 单笔赔付) 计入；单笔赔付超出单程运费的部分不予计入。",
+    "运费险赔付仅抵扣退回运费，不抵扣包装破损折旧成本。",
+    "本测算仅基于物流与赔付条件的直接成本对比，不纳入开通运费险可能带来的转化率提升、售后体验改善或拒赔率等因素；成本对比不保证最终经营决策。",
+    "缺失输入项不使用示例值或零值自动补齐；包装折旧缺失时可计算方案差额与临界点，不冒充完整单均成本。"
+  ]
+}

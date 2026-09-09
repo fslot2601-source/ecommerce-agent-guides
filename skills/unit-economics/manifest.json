@@ -1,0 +1,15 @@
+{
+  "id": "unit-economics",
+  "entry": "SKILL.md",
+  "files": [
+    "SKILL.md",
+    "agent/calculate.mjs",
+    "agent/availability.mjs",
+    "agent/example-input.json",
+    "agent/example-report.md",
+    "agent/example-result.json",
+    "src/engine.ts",
+    "src/types.ts",
+    "src/defaultSettings.ts"
+  ]
+}

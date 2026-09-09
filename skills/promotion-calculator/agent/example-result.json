@@ -1,0 +1,94 @@
+{
+  "productName": "示例商品：大促冲量款（非真实客户数据）",
+  "status": "complete",
+  "settings": {
+    "listPrice": 399,
+    "productCost": 168,
+    "shippingCost": 10,
+    "platformFeeRate": 5,
+    "taxRate": 1,
+    "fullReductionThreshold": 300,
+    "fullReductionAmount": 50,
+    "basketAmount": 399,
+    "itemAllocationRate": 100,
+    "shopCouponKind": "fixed",
+    "shopCouponThreshold": 300,
+    "shopCouponValue": 30,
+    "newCustomerGift": 20,
+    "newCustomerPlatformRate": 100,
+    "categoryCouponKind": "fixed",
+    "categoryCouponThreshold": 0,
+    "categoryCouponValue": 20,
+    "categoryPlatformRate": 40,
+    "vipCreatorCouponKind": "fixed",
+    "vipCreatorCouponThreshold": 0,
+    "vipCreatorCouponValue": 15,
+    "vipCreatorPlatformRate": 40
+  },
+  "calculation": {
+    "consumerPrice": 264,
+    "merchantReceipt": 298,
+    "totalDiscount": 135,
+    "merchantDiscount": 101,
+    "platformContribution": 34,
+    "externalSubsidy": 34,
+    "fee": 14.9,
+    "tax": 2.98,
+    "productCost": 168,
+    "shippingCost": 10,
+    "netProfit": 102.11999999999999,
+    "margin": 34.26845637583892,
+    "fullReductionEligible": true,
+    "shopCouponEligible": true,
+    "layers": [
+      {
+        "name": "跨店满减 / 官方立减",
+        "note": "订单满 ¥300.00，本商品分摊 100.0%",
+        "discount": 50,
+        "merchant": 50,
+        "platform": 0
+      },
+      {
+        "name": "店铺券 / 满折",
+        "note": "满 ¥300.00 减 ¥30.00",
+        "discount": 30,
+        "merchant": 30,
+        "platform": 0
+      },
+      {
+        "name": "新客礼金 / 首单礼金",
+        "note": "礼金 ¥20.00；平台出资 100.0%",
+        "discount": 20,
+        "merchant": 0,
+        "platform": 20
+      },
+      {
+        "name": "品类券 / 平台券",
+        "note": "满 ¥0.00 减 ¥20.00；平台出资 40.0%",
+        "discount": 20,
+        "merchant": 12,
+        "platform": 8
+      },
+      {
+        "name": "88VIP / 达人券",
+        "note": "满 ¥0.00 减 ¥15.00；平台出资 40.0%",
+        "discount": 15,
+        "merchant": 9,
+        "platform": 6
+      }
+    ]
+  },
+  "targets": {
+    "breakEvenListPrice": 260.37,
+    "maxShopCoupon": 138.63
+  },
+  "missingByMetric": {},
+  "assumptions": [
+    "优惠按跨店满减、店铺券、新客礼金、品类券、88VIP/达人券的固定顺序作用于剩余价格；这是当前模型规则，不是平台实时官方规则。",
+    "百分比券表示优惠扣减比例，例如 20 表示减 20%（八折）；不是实付比例。",
+    "未包含退款损耗、广告、达人佣金、资金及企业管理费用，利润仅是本模型口径，不能称完整经营安全线。",
+    "缺失优惠不等于没有优惠。只有用户明确某项优惠金额为 0 时，才按无该优惠处理；费用与出资缺失不补默认值。",
+    "反推按 0.01 元或 0.01 个百分点的输入步长分段查找，并代回原计算核对；保本标价搜索范围为 0.01 至 1000 万元，缺完整规则时不反推。",
+    "改变标价或店铺券时，其他规则（含 basketAmount 与分摊比例）保持输入值；如订单总额也应随价格变化，需要用户先校准任务口径。"
+  ]
+}

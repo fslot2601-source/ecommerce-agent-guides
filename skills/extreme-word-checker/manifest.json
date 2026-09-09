@@ -1,0 +1,13 @@
+{
+  "id": "extreme-word-checker",
+  "entry": "SKILL.md",
+  "files": [
+    "SKILL.md",
+    "agent/check.mjs",
+    "agent/ocr-prompt.txt",
+    "agent/example-input.json",
+    "agent/example-report.md",
+    "agent/example-result.json",
+    "src/rules.ts"
+  ]
+}
