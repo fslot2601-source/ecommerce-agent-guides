@@ -1,0 +1,24 @@
+{
+  "shop": "示例生活馆",
+  "date": "2026-06-09",
+  "dataNature": "独立编写的模拟数据，不含真实商家资料；输出由随包脚本实际执行生成。",
+  "inputDirectory": "examples",
+  "files": [
+    {
+      "file": "shop-sales.xlsx",
+      "label": "店铺交易概况：6月2日、8日、9日"
+    },
+    {
+      "file": "product-sales.xlsx",
+      "label": "商品销售明细：6月9日"
+    },
+    {
+      "file": "full-site.csv",
+      "label": "全站营销：6月8日、9日"
+    },
+    {
+      "file": "quick-ads.csv",
+      "label": "快车日报：6月8日、9日"
+    }
+  ]
+}

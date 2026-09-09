@@ -1,0 +1,21 @@
+{
+  "id": "store-daily-report",
+  "entry": "SKILL.md",
+  "files": [
+    "SKILL.md",
+    "requirements.txt",
+    "requirements-pdf.txt",
+    "agent/generate.py",
+    "agent/INPUT_FORMAT.md",
+    "agent/example-input.json",
+    "agent/example-result.json",
+    "agent/example-report.md",
+    "agent/example-report.html",
+    "src/daily_report.py",
+    "src/report.html",
+    "examples/shop-sales.xlsx",
+    "examples/product-sales.xlsx",
+    "examples/full-site.csv",
+    "examples/quick-ads.csv"
+  ]
+}

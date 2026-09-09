@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-06-09",
+  "shopName": "示例生活馆",
+  "shop": {
+    "date": "2026-06-09",
+    "sales": 26800.0,
+    "orders": 80.0,
+    "units": 120.0,
+    "buyers": 72.0,
+    "visitors": 1200.0,
+    "conversion": 0.06,
+    "customer_value": 372.22222222222223,
+    "sales_change": 0.11666666666666667,
+    "orders_change": 0.06666666666666667,
+    "sales_week_change": 0.21818181818181817,
+    "spend": 1100.0,
+    "spend_ratio": 0.041044776119402986,
+    "spend_change": -0.043478260869565216,
+    "spend_label": "两类推广花费"
+  },
+  "channels": [
+    {
+      "id": "full",
+      "name": "全站营销",
+      "spend": 500.0,
+      "revenue": 5400.0,
+      "orders": 18.0,
+      "roi": 10.8,
+      "spend_change": -0.16666666666666666,
+      "revenue_change": 0.125,
+      "previous_roi": 8.0
+    },
+    {
+      "id": "quick",
+      "name": "快车",
+      "spend": 600.0,
+      "revenue": 3260.0,
+      "orders": 13.0,
+      "roi": 5.433333333333334,
+      "spend_change": 0.09090909090909091,
+      "revenue_change": 0.18545454545454546,
+      "previous_roi": 5.0
+    }
+  ],
+  "topProducts": [
+    {
+      "date": "2026-06-09",
+      "id": "SKU-A",
+      "name": "轻行双肩背包 20L 米白",
+      "sales": 9600.0,
+      "orders": 24.0,
+      "units": 36.0,
+      "quick_spend": 320.0,
+      "quick_roi": 5.0
+    },
+    {
+      "date": "2026-06-09",
+      "id": "SKU-B",
+      "name": "随行保温杯 500ml 银色",
+      "sales": 6200.0,
+      "orders": 16.0,
+      "units": 24.0,
+      "quick_spend": 180.0,
+      "quick_roi": 7.0
+    },
+    {
+      "date": "2026-06-09",
+      "id": "SKU-C",
+      "name": "折叠收纳箱 45L 双只装",
+      "sales": 4200.0,
+      "orders": 12.0,
+      "units": 18.0,
+      "quick_spend": null,
+      "quick_roi": null
+    },
+    {
+      "date": "2026-06-09",
+      "id": "SKU-D",
+      "name": "棉柔浴巾 70×140cm 浅灰",
+      "sales": 3000.0,
+      "orders": 10.0,
+      "units": 16.0,
+      "quick_spend": 100.0,
+      "quick_roi": 4.0
+    },
+    {
+      "date": "2026-06-09",
+      "id": "SKU-E",
+      "name": "桌面阅读灯 暖白",
+      "sales": 2400.0,
+      "orders": 10.0,
+      "units": 14.0,
+      "quick_spend": null,
+      "quick_roi": null
+    }
+  ],
+  "promotionFocus": [
+    {
+      "id": "SPU-A",
+      "name": "轻行双肩背包系列",
+      "grain": "SPU",
+      "channel": "全站营销",
+      "spend": 300.0,
+      "revenue": 3600.0,
+      "roi": 12.0
+    },
+    {
+      "id": "SPU-B",
+      "name": "随行保温杯系列",
+      "grain": "SPU",
+      "channel": "全站营销",
+      "spend": 200.0,
+      "revenue": 1800.0,
+      "roi": 9.0
+    },
+    {
+      "id": "SKU-A",
+      "name": "轻行双肩背包 20L 米白",
+      "grain": "SKU",
+      "channel": "快车",
+      "spend": 320.0,
+      "revenue": 1600.0,
+      "roi": 5.0
+    },
+    {
+      "id": "SKU-B",
+      "name": "随行保温杯 500ml 银色",
+      "grain": "SKU",
+      "channel": "快车",
+      "spend": 180.0,
+      "revenue": 1260.0,
+      "roi": 7.0
+    }
+  ],
+  "attention": "快车报表交易额较前日+18.55%，花费+9.09%，投产比5.43（前日5.00）。先结合归因回流与多日表现复查。",
+  "notices": [
+    "全站营销SPU未映射到销售SKU，保持独立展示。"
+  ],
+  "coverage": 1.0,
+  "salesGap": 0.0,
+  "inputFiles": [
+    {
+      "file": "full-site.csv",
+      "sheet": "full-site.csv",
+      "kind": "full",
+      "rows": 4,
+      "dates": [
+        "2026-06-08",
+        "2026-06-09"
+      ],
+      "sha256": "af101abe71be33b6b03b6c8b6fb65b6e5bab071136beb298023e1b7ed9159507"
+    },
+    {
+      "file": "product-sales.xlsx",
+      "sheet": "模拟数据",
+      "kind": "product",
+      "rows": 6,
+      "dates": [
+        "2026-06-09"
+      ],
+      "sha256": "f1790ff274375e90042905a951725684f1c04720d2d13985122013eed9bebe4d"
+    },
+    {
+      "file": "quick-ads.csv",
+      "sheet": "quick-ads.csv",
+      "kind": "quick",
+      "rows": 7,
+      "dates": [
+        "2026-06-08",
+        "2026-06-09"
+      ],
+      "sha256": "42d6c63ddc60946e3a8cb0ff5975cdcd3736534b5b1830cd2272b41d0cef8166"
+    },
+    {
+      "file": "shop-sales.xlsx",
+      "sheet": "模拟数据",
+      "kind": "shop",
+      "rows": 3,
+      "dates": [
+        "2026-06-02",
+        "2026-06-08",
+        "2026-06-09"
+      ],
+      "sha256": "2b3d21c9bc811922bb681d0e1e16751474232b9ff41f3a5fd7fb9dc21974db19"
+    }
+  ],
+  "counts": {
+    "products": 6,
+    "matchedQuickSkus": 3
+  },
+  "definitions": [
+    "金额单位为元；成交额沿用交易概况，不减退款或计算利润。",
+    "推广花费只含已提供的全站营销与快车，不含佣金及补贴券。",
+    "不同推广报表归因交易额不能相加，也不等于该SKU自身成交。",
+    "缺失或零分母显示—；无记录不等于零。"
+  ],
+  "pdf": {
+    "status": "not-requested"
+  }
+}
